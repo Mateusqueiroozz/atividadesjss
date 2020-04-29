@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+  <script>
+  	
+  </script>
+
+<style type="text/css">
+body{
+	background-color: grey;
+}
+h3{
+	font-weight: 100;
+}
+</style>
+
+
+<body>
+	<h2>Aula JS de Hoje</h2>
+	<h3>DOM</h3>
+	<h3 id="idh3">Manipular elementos HTML através do <b>JS</b></h3>
+
+	<p id="idp"></p>  
+
+	<p id="outrop"></p> 
+
+	<div class="final">
+		Finalizando o conteudo sobre getElement
+
+	</div>
+
+	<div class="contato">
+		Entre em contato
+
+	</div>
+
+	<script type="text/javascript">	
+
+		//acessar via id
+		var paragrafo = document.getElementById("idp");
+
+		//modificar texto utilizando a variavel que recebeu o documento
+		paragrafo.innerText = "Primeiro P escrito pelo JS";
+		
+		//acessar via id
+		var h3 = document.getElementById("idh3");
+
+		h3.innerText = "Modifiquei Segundo H3 pelo JS";
+		//acessar via id
+		var outrop = document.getElementById("outrop");
+
+		//modificar HTML utilizando a variavel que recebeu o documento
+		outrop.innerHTML = h3.innerHTML + ' adicionei esse texto ao lado pelo JS';
+
+		//acessar via tag e posicao da tag dentro do documento 
+		var outroh = document.getElementsByTagName('h3')[0];
+
+		//modificar HTML utilizando a variavel que recebeu o documento
+		outroh.innerHTML = "Modifiquei primeiro H3 pelo JS";
+		//alert(h3.innerText);
+
+		//acessar via classe da div
+		var final = document.querySelector('div.final');
+
+		//adicionando texto ao que ja tinha atras da variavel 
+		final.innerText = final.innerText + ' Query Select';		
+
+		//acessar vida classe
+		var contato = document.getElementsByClassName('contato')[0];
+		
+		//modificar css 
+		contato.style.background = 'red';
+
+	</script>
+</body>
+
+</html>
