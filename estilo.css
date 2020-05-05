@@ -1,0 +1,132 @@
+.navegacao{	
+	width: 100%;		
+	margin-top: 0px;
+	border: 0px;
+}
+
+.cabecalho{
+	width: 100%;	
+	height: 70px;
+	background-color: #006DBC;   
+}
+
+.coluna {
+  float: left;
+  width: 48%;
+  padding: 15px;
+}
+
+.coluna1 {
+  float: right;
+  width: 50%;  
+}
+
+.menu {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+.primeirop{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	height: 20px;	
+	text-align: center;
+}
+
+.divimg{
+	width: 30%;
+}
+
+.img1{
+	width: 200px;
+	height: 180px;		
+	border-radius: 10px;
+}
+
+.logo{
+	width: 12%;
+	height: 70px;
+}
+
+.tele{
+	width: 100%;
+	height: 70px;
+}
+
+.imglogo{
+	margin-left: 5px;
+	margin-top: 0px;
+	width: 200px;
+	height: 70px;
+}
+
+.contato{
+	width: 50%;
+	height: 20px;
+	float: right;
+	text-align: right;
+}
+
+.login{
+	float: right;
+	margin-left: 175px;	
+}
+
+#primeiroa{
+	text-decoration: none;
+	width: 200px;
+}
+
+#anav{
+	width: 140px;
+}
+
+.barranav{
+	width: 500px;
+	font-size: 20px;
+	margin-left: 450px;
+	height: 50px;
+}
+
+.footer{
+	width: 100%;
+ 	height: 150px;
+ 	background-color: lightblue;
+ 	display: flex;
+    flex-wrap: wrap; 	
+}
+
+.redessociais{
+	width: 45%;
+	height: 140px;
+	text-align: right;
+	margin-top: 5px;
+}
+
+.rdplogo{
+	width: 25%;
+	height: 140px;
+	margin-top: 5px;
+	border-right: groove;
+	border-right-color: grey;
+	border-width: 1px;
+}
+
+.ajuda{
+	width: 25%;
+	height: 140px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-right: groove;
+	border-right-color: grey;
+	border-width: 1px;
+	text-align: center;
+}
+
+#segundoa{
+	font-size: 50px;
+	text-decoration: none;
+	width: 50px;
+}
